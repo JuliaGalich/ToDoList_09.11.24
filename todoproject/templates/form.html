@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form</title>
+</head>
+<body>
+    <form>
+        <label for="name">Ім’я:</label>
+        <input type="text" id="name" name="name" placeholder="Введіть своє імя">
+        <label for="email">Електронна пошта:</label>
+        <input type="text" id="email" name="email" placeholder="Введіть адресу">
+        <fieldset>
+        <legend>Стать:</legend>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Чоловіча</label>
+        <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Жіноча</label>
+         </fieldset>
+         <fieldset>
+            <legend>Хобі:</legend>
+            <input type="checkbox" id="music" name="interest" value="music">
+            <label for="music">Музика</label>
+            <input type="checkbox" id="sports" name="interest" value="sports">
+            <label for="sports">Спорт</label>
+            <input type="checkbox" id="reading" name="interest" value="reading">
+            <label for="reading">Читання</label>
+         </fieldset>
+         <label for="password">Пароль:</label>
+         <input type="password" id="password" name="password" placeholder="Введіть пароль">
+         <button type="submit">Надіслати</button>
+        </form>
+
+</body>
+</html>
